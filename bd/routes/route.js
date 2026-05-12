@@ -9,7 +9,7 @@ router.get('/login', async (req,res)=>{
         await linkedinLogin();
         res.json({
             success: true,
-            message: "Login automation started"
+            message: "Login started"
         });
 
     } catch (error) {
